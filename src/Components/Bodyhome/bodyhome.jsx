@@ -132,7 +132,11 @@ function Bodyhome(props) {
         </h1>
       </div>
 
-      <AppBar position="static" color="default">
+      <AppBar
+        position="static"
+        color="default"
+        style={{ backgroundColor: "white" }}
+      >
         <Toolbar>
           <Grid item xs={12}>
             <Grid container justify="center" spacing="16">
